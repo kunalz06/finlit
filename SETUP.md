@@ -1,1 +1,7 @@
-
+    DB_USER=postgres
+    DB_HOST=localhost
+    DB_DATABASE=finlit
+    DB_PASSWORD=your_password_here
+    DB_PORT=5432
+    JWT_SECRET=your_secret_key_here
+    PORT=5000
