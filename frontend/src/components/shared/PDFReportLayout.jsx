@@ -21,7 +21,7 @@ const PDFReportLayout = ({ reportData, filteredQuizAttempts, filteredAssignmentS
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '20px', margin: '20px 0' }}>
                 {profileImageUrl && (
                     <div style={{ flexShrink: 0 }}>
-                        <img src={profileImageUrl} alt={student.name} style={{ width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #007bff' }} />
+                        <img src={profileImageUrl} alt={student.name} crossOrigin="anonymous" style={{ width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #007bff' }} />
                     </div>
                 )}
                 <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', fontSize: '14px' }}>
